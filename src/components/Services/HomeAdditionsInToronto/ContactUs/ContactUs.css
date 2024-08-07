@@ -1,0 +1,15 @@
+.contactUs_cart_bg{
+    background: #1FE0BA;
+    box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.25) inset;
+    color: black;
+}
+
+.input_bg{
+    border-radius: 6px;
+    background: rgba(31, 224, 186, 0.15);
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+.contact_btn{
+    border-radius: 8px;
+    background: rgba(1, 112, 185, 0.89);
+}
