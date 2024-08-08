@@ -1,71 +1,89 @@
-import React from 'react';
+import React from "react";
 
-import HomeBanner from './HomeBanner/HomeBanner';
-import Brand from './Brand/Brand';
-import WorkingProcess from './WorkingProcess/WorkingProcess';
-import FAQ from './FAQ/FAQ';
-import ContactUs from './ContactUs/ContactUs';
-import HomeAdditionDesign from './HomeAdditionDesign/HomeAdditionDesign';
-import Construction from './Construction/Construction';
-import Location from './Location/Location';
+import HomeBanner from "./HomeBanner/HomeBanner";
+import Brand from "./Brand/Brand";
+import WorkingProcess from "./WorkingProcess/WorkingProcess";
+import FAQ from "./FAQ/FAQ";
+import ContactUs from "./ContactUs/ContactUs";
+import HomeAdditionDesign from "./HomeAdditionDesign/HomeAdditionDesign";
+import Construction from "./Construction/Construction";
+import Location from "./Location/Location";
+import KnowAboutHomeAdditions from "./KnowAboutHomeAdditions/KnowAboutHomeAdditions";
+import LocalContractors from "./LocalContractors/LocalContractors";
+import ExpertBuilders from "./ExpertBuilders/ExpertBuilders";
+import AdditionContractors from "./AdditionContractors/AdditionContractors";
+import Services from "./Services/Services";
+import AboutUs from "./AboutUs/AboutUs";
+import CustomDesign from "./CustomDesign/CustomDesign";
 
 const HomeAdditionsInToronto = () => {
-    return (
-        <div>
+  return (
+    <div>
+      <section>
+        <HomeBanner />
+      </section>
 
-            <section>
-                <HomeBanner/>
-            </section>
+      <section>
+        <Brand />
+      </section>
 
-            <section>
-                <Brand/>
-            </section>
+      <section>
+        <AboutUs/>
+      </section>
 
-            <section>
-            </section>
+      <section>
+        <KnowAboutHomeAdditions />
+      </section>
+      
+      <section>
+      <Construction />
+      </section>
 
-            <section>
+      <section>
+        <LocalContractors/>
+      </section>
 
-            </section>
-                <Construction/>
-            <section>
-                <WorkingProcess/>
-            </section>
+      <section>
+        <WorkingProcess />
+      </section>
 
-            <section>
+      <section></section>
 
-            </section>
+      <section>
+        <ExpertBuilders/>
+      </section>
 
-            <section>
+      <section></section>
 
-            </section>
+      <section>
+        <CustomDesign/>
+      </section>
 
-            <section>
+      <section>
+        <HomeAdditionDesign />
+      </section>
 
-            </section>
+      <section>
+        <Services />
+      </section>
 
-            <section>
+      <section>
+        <FAQ />
+      </section>
 
-            </section>
+      <section>
+        <AdditionContractors />
+      </section>
 
-            <section>
-                <HomeAdditionDesign/>
-            </section>
+      <section>
+        <ContactUs />
+      </section>
 
-            <section>
-                <FAQ/>
-            </section>
-
-            <section>
-                <ContactUs/>
-            </section>
-
-            <section>
-                <Location/>
-            </section>
-            
-        </div>
-    );
+      <section>
+        <Location />
+      </section>
+    </div>
+  );
 };
 
 export default HomeAdditionsInToronto;
