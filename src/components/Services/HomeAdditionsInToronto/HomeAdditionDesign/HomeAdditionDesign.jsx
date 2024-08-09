@@ -6,8 +6,8 @@ import "./HomeAdditionDesign.css"
 
 const HomeAdditionDesign = () => {
     return (
-        <div className='homeSection__bg'>
-            <div className='full__section_r_p pl-8 md:pl-0 padding__top'>
+        <div className=''>
+            <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>
                     <div>

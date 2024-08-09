@@ -6,7 +6,7 @@ import "./Construction.css"
 
 const Construction = () => {
     return (
-        <div className='homeSection__bg'>
+        <div className=''>
             <div className='container padding__top'>
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>

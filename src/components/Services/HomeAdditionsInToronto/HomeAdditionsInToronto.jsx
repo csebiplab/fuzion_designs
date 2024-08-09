@@ -15,6 +15,13 @@ import AdditionContractors from "./AdditionContractors/AdditionContractors";
 import Services from "./Services/Services";
 import AboutUs from "./AboutUs/AboutUs";
 import CustomDesign from "./CustomDesign/CustomDesign";
+import HomeAdditionsTypes from "./HomeAdditionsTypes/HomeAdditionsTypes";
+import Gallery from "./Gallery/Gallery";
+import CostOfHomeAddition from "./CostOfHomeAddition/CostOfHomeAddition";
+import Review from "./Review/Review";
+import Benefits from "./Benefits/Benefits";
+import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
+import Areas from "./Areas/Areas";
 
 const HomeAdditionsInToronto = () => {
   return (
@@ -34,6 +41,10 @@ const HomeAdditionsInToronto = () => {
       <section>
         <KnowAboutHomeAdditions />
       </section>
+
+      <section>
+        <HomeAdditionsTypes />
+      </section>
       
       <section>
       <Construction />
@@ -47,14 +58,6 @@ const HomeAdditionsInToronto = () => {
         <WorkingProcess />
       </section>
 
-      <section></section>
-
-      <section>
-        <ExpertBuilders/>
-      </section>
-
-      <section></section>
-
       <section>
         <CustomDesign/>
       </section>
@@ -64,7 +67,31 @@ const HomeAdditionsInToronto = () => {
       </section>
 
       <section>
+        <Gallery/>
+      </section>
+
+      <section>
+        <ExpertBuilders/>
+      </section>
+
+      <section>
+        <CostOfHomeAddition/>
+      </section>
+
+      <section>
+        <Review/>
+      </section>
+
+      <section>
         <Services />
+      </section>
+
+      <section>
+        <Benefits />
+      </section>
+
+      <section>
+        <WhyChooseUs />
       </section>
 
       <section>
@@ -73,6 +100,10 @@ const HomeAdditionsInToronto = () => {
 
       <section>
         <AdditionContractors />
+      </section>
+
+      <section>
+        <Areas />
       </section>
 
       <section>

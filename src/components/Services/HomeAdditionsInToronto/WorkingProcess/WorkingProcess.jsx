@@ -92,7 +92,7 @@ const services = [
 
 const WorkingProcess = () => {
   return (
-    <div className="homeSection__bg">
+    <div className="">
       <div className="!overflow-hidden padding__top">
         <div className="">
           <div className="container">
@@ -149,7 +149,7 @@ const WorkingProcess = () => {
                     </div>
                     
 
-                    <div className="mx-auto w-[370px] md:w-[380px] lg:w-[390px] xl:w-[400px] 2xl:w-[410px] 3xl:w-[420px] 4xl:w-[430px] 5xl:w-[437px] h-[202px] 5xl:h-[167px] cart px-[12px] py-[11px]">
+                    <div className="mx-auto w-[310px] md:w-[380px] lg:w-[390px] xl:w-[400px] 2xl:w-[410px] 3xl:w-[420px] 4xl:w-[430px] 5xl:w-[437px] h-[220px] 5xl:h-[167px] cart px-[12px] py-[11px]">
                       <div className="">
                         <h5 className="text-black text-center text-[20px] font-bold py-[9px]">
                           {service.title}{" "}

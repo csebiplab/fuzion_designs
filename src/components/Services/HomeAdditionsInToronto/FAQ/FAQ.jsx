@@ -58,7 +58,7 @@ const FAQ = () => {
   const handleOpen = (value) => setOpen(open === value ? 0 : value);
 
   return (
-    <div className="homeSection__bg">
+    <div className="">
       <div className="full__section_r_p pl-3 md:pl-0 padding__top">
         <div className=" grid md:grid-cols-6 grid-cols-1 md:gap-[30px]">
           <div className="md:col-span-3 flex items-center ">

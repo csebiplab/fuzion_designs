@@ -6,7 +6,7 @@
   @apply text-dark;
 } */
 body {
-  @apply bg-[#F7FFEF] overflow-x-hidden;
+  @apply bg-[#F8F4F4] overflow-x-hidden;
 }
 footer * {
   @apply text-white;
