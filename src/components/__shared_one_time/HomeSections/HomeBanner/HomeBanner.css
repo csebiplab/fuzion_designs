@@ -1,0 +1,8 @@
+.banner__bg{
+    background-image: url('/assets/fuzion_design_home/Header.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+}
