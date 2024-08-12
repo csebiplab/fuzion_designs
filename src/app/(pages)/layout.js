@@ -27,7 +27,7 @@ export async function generateMetadata() {
 
     if (homeRouteAllMetaData?.length === 0) {
       return {
-        title: "GoKundu Agency",
+        title: "Fuzion Design",
         description: "The #1 Digital Marketing Agency for Startup",
         keywords: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
       };
@@ -58,7 +58,7 @@ export async function generateMetadata() {
     };
   } catch (error) {
     return {
-      title: "GoKundu Agency",
+      title: "Fuzion Design",
       description: "The #1 Digital Marketing Agency for Startup",
       keywords: "Maricela's Cleaning Magnificence offers top-tier commercial & residential cleaning services in Houston. Discover the best cleaning solutions.",
     };

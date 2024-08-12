@@ -32,6 +32,10 @@ const our_service_menu_items = {
       title: "Home Additions in Toronto",
       route: "/home_additions_in_toronto",
     },
+    {
+      title: "Basement Renovations in Toronto",
+      route: "/basement_renovations_in_toronto",
+    },
   ],
 };
 
