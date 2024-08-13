@@ -9,6 +9,15 @@ import Gallery from "../HomeAdditionsInToronto/Gallery/Gallery";
 import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 import Review from "../HomeAdditionsInToronto/Review/Review";
 import FAQ from "./FAQ/FAQ";
+import RemodelingRenovation from "./RemodelingRenovation/RemodelingRenovation";
+import RenovationsFinishing from "./RenovationsFinishing/RenovationsFinishing";
+import HowMuchCost from "./HowMuchCost/HowMuchCost";
+import BasementUpgrade from "./BasementUpgrade/BasementUpgrade";
+import BasementRenovation from "./BasementRenovation/BasementRenovation";
+import ProfessionalBasementRenovation from "./ProfessionalBasementRenovation/ProfessionalBasementRenovation";
+import TrustedBasement from "./TrustedBasement/TrustedBasement";
+import Benefits from "./Benefits/Benefits";
+import OurProcess from "./OurProcess/OurProcess";
 
 const BasementRenovationsInToronto = () => {
   return (
@@ -26,7 +35,31 @@ const BasementRenovationsInToronto = () => {
       </section>
 
       <section>
+        <RemodelingRenovation />
+      </section>
+
+      <section>
+        <RenovationsFinishing />
+      </section>
+
+      <section>
+        <ProfessionalBasementRenovation />
+      </section>
+
+      <section>
+        <TrustedBasement  />
+      </section>
+
+      <section>
+        <BasementRenovation />
+      </section>
+
+      <section>
         <Gallery />
+      </section>
+
+      <section>
+        <HowMuchCost />
       </section>
 
       <section>
@@ -34,11 +67,23 @@ const BasementRenovationsInToronto = () => {
       </section>
 
       <section>
-        <FAQ />
+        <OurProcess />
       </section>
 
       <section>
         <Review/>
+      </section>
+
+      <section>
+        <Benefits/>
+      </section>
+
+      <section>
+        <BasementUpgrade />
+      </section>
+
+      <section>
+        <FAQ />
       </section>
 
       <section>

@@ -17,7 +17,7 @@ const ContactUs = () => {
         <div className="">
           <div className="container ">
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[30px]">
-              <div className="md:col-span-3 flex items-center">
+              <div className="order-2 md:order-1 md:col-span-3 flex items-center">
                 <div className="contactUs_cart_bg py-[43px] px-[26px]">
                   <h5 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] font-bold text-center md:text-left pb-[27px]">
                     Contact Us
@@ -85,7 +85,7 @@ const ContactUs = () => {
                   <h5 className="text-[25px] font-bold">Fuzion Designs</h5>
                 </div>
               </div>
-              <div className="md:col-span-3 flex items-center">
+              <div className="order-1 md:order-2 md:col-span-3 flex items-center">
                 <div>
                   <h5 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] font-bold text-black">
                     Give Us Feedback

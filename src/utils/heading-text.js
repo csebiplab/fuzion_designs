@@ -21,4 +21,14 @@ export const headingIconText = {
   areas__headingIconText : "Areas",
 
   
+  // Basement Renovations in Toronto page 
+  remodelingRenovation__headingIconText : "Remodeling & Renovation",
+  renovationsFinishing__headingIconText : "Renovations & Finishing",
+  professionalBasementRenovation__headingIconText : "Professional Basement Renovation",
+  trustedBasement__headingIconText : "Trusted Basement",
+  basementRenovation__headingIconText : "Basement Renovation",
+  howMuchCost__headingIconText : "How Much Cost",
+  ourProcess__headingIconText : "Our Process",
+  benefits__headingIconText : "Benefits",
+  basementUpgrade__headingIconText : "Basement Upgrade"
 }

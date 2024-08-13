@@ -92,7 +92,7 @@ const CostOfHomeAddition = () => {
             <p className="text-lg font-normal text-center text-black">The cost of a home addition in Toronto can vary significantly based on several factors, including the size and complexity of the project, materials used, labor costs, permits, and location. As of recent estimates:</p>
           </div>
 
-          <div className=" mt-[30px] lg:mt-[45px]">
+          <div className="mt-[60px]">
             <Swiper
               modules={[Navigation, Autoplay]}
               breakpoints={breakpoints}

@@ -74,13 +74,13 @@ const FAQ = () => {
           </div>
 
           <div className="md:col-span-3 pt-3 md:pt-0">
-            <div className="flex flex-col justify-center items-start">
+            <div className="flex flex-col justify-center items-center md:items-start">
               <div>
               <HeadingIcon text={headingIconText.faq__headingIconText}/>
               </div>
 
               <div>
-                <h3 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] leading-normal font-bold text-black text-start pb-2">
+                <h3 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] leading-normal font-bold text-black text-center md:text-start pb-2">
                 Common Questions About Basement Renovations
                 
                 </h3>

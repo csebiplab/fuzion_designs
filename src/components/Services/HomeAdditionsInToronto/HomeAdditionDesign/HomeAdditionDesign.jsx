@@ -22,7 +22,7 @@ const HomeAdditionDesign = () => {
                     <h3 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] leading-normal font-bold text-black text-center md:text-left pb-[10px]">Best Home Addition Design in Toronto</h3>
                     <p className="text-black text-lg font-normal text-center md:text-left pb-[30px]">Fuzion Designs in Toronto excels in crafting the best home addition designs, blending creativity with practicality. Our expert team meticulously tailors each project to enhance your home's functionality and aesthetic appeal. Whether you seek a luxurious new bathroom, expanded kitchen, or additional living space, we prioritize innovative design solutions and superior craftsmanship. With a focus on client collaboration, we ensure your vision is realized while adhering to timelines and budgets. Trust Fuzion Designs to elevate your home with standout additions that seamlessly integrate with your existing structure, enhancing both value and livability. Discover why we're the preferred choice for homeowners seeking exceptional home additions in Toronto.</p>
                     <div className='w-full flex flex-col items-center md:items-start'>
-                    <a href='tel:+1 (405) 586-4112'>
+                    <a href='tel:+1 416-571-0011'>
                         <button className="readyToWorkBtn text-lg font-bold text-white py-[8px] px-[19px]">Get Your Free Estimate</button>
                     </a>
                     <h5 className="text-[22px] md:text-[24px] font-semibold text-black pt-[30px]">or Call Us:<a href='tel:+1 416-571-0011'>  <span className='text-primary font-bold'>+1 416-571-0011</span></a></h5>

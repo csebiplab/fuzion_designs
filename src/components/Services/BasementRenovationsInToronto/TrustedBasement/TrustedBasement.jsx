@@ -23,46 +23,35 @@ const breakpoints = {
 };
 
 const customDesignImage = [
-  "/assets/fuzion_design_home/custom_design1.png",
-  "/assets/fuzion_design_home/custom_design2.png",
-  "/assets/fuzion_design_home/custom_design3.png",
-  "/assets/fuzion_design_home/custom_design4.png",
-  "/assets/fuzion_design_home/custom_design5.png",
+  "/assets/basement_renovation/trustedBasement1.png",
+  "/assets/basement_renovation/trustedBasement2.png",
+  "/assets/basement_renovation/trustedBasement3.png",
+  "/assets/basement_renovation/trustedBasement4.png",
+  "/assets/basement_renovation/trustedBasement5.png",
 ];
 
-const CustomDesign = () => {
+const TrustedBasement = () => {
   return (
     <div>
       <div className="container padding__top">
-        <div className="grid grid-cols-1 md:grid-cols-6 gap-[36px]">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-[36px]">
           <div className="order-2 md:order-1 md:col-span-3">
             <div>
               <div className="flex justify-center md:justify-start">
                 <HeadingIcon
-                  text={headingIconText.customDesign__headingIconText}
+                  text={headingIconText.trustedBasement__headingIconText}
                 />
               </div>
 
               <h3 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] leading-normal font-bold text-black text-center md:text-left pb-[10px]">
-                Custom Design Build in Toronto
+                Trusted Basement Renovations Services Toronto
               </h3>
               <p className="text-black text-lg font-normal text-center md:text-left">
-                Fuzion Designs offers premier custom design-build services in
-                Toronto, specializing in transforming visions into reality. With
-                a focus on creativity and quality, our expert team collaborates
-                closely with clients to craft bespoke solutions for home
-                additions, renovations, and remodeling projects. From initial
-                concept through meticulous planning and skilled construction, we
-                ensure every detail aligns with your lifestyle and aesthetic
-                preferences. As a trusted partner, we prioritize transparency,
-                communication, and exceeding expectations. Choose Fuzion Designs
-                for personalized service, superior craftsmanship, and a seamless
-                custom design-build experience that enhances your home's beauty
-                and functionality.
+              Fuzion Designs stands as a beacon of reliability and excellence in trusted basement renovations in Toronto. With a solid reputation built on years of superior craftsmanship and client satisfaction, we specialize in transforming basements into stunning spaces. At Fuzion Designs, we believe in the power of personalized service. Whether you're looking to create a cozy family retreat, a functional home office, a stylish entertainment area, or any other customized space, we have the expertise to deliver exceptional results. Our basement renovation contractor's commitment to quality is evident in every aspect of our work. We use only the finest materials and employ skilled tradespeople who ensure meticulous attention to detail and craftsmanship. With Fuzion Designs, you can trust that your basement renovation project will be handled with professionalism and integrity, resulting in a space that enhances your home's value and functionality.
               </p>
             </div>
           </div>
-          <div className="order-1 md:order-2 md:col-span-3">
+          <div className="order-1 md:order-2 md:col-span-2">
             <div>
               {/* ==================== swiper slider ================ */}
               <Swiper
@@ -105,4 +94,4 @@ const CustomDesign = () => {
   );
 };
 
-export default CustomDesign;
+export default TrustedBasement;

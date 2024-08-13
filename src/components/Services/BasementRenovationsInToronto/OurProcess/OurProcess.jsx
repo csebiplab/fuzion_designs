@@ -11,21 +11,17 @@ import "swiper/css/autoplay";
 import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import "swiper/css/virtual";
-import "./Benefits.css";
+import "./OurProcess.css";
 
-import benefit1 from "../../../../../public/assets/fuzion_design_home/benefit1.png";
-import benefit2 from "../../../../../public/assets/fuzion_design_home/benefit2.png";
-import benefit3 from "../../../../../public/assets/fuzion_design_home/benefit3.png";
-import benefit4 from "../../../../../public/assets/fuzion_design_home/benefit4.png";
-import benefit5 from "../../../../../public/assets/fuzion_design_home/benefit5.png";
-import benefit6 from "../../../../../public/assets/fuzion_design_home/benefit6.png";
-import benefit7 from "../../../../../public/assets/fuzion_design_home/benefit7.png";
-import benefit8 from "../../../../../public/assets/fuzion_design_home/benefit8.png";
-import benefit9 from "../../../../../public/assets/fuzion_design_home/benefit9.png";
-import benefit10 from "../../../../../public/assets/fuzion_design_home/benefit10.png";
+import ourProcess1 from "../../../../../public/assets/basement_renovation/ourProcess1.png";
+import ourProcess2 from "../../../../../public/assets/basement_renovation/ourProcess2.png";
+import ourProcess3 from "../../../../../public/assets/basement_renovation/ourProcess3.png";
+import ourProcess4 from "../../../../../public/assets/basement_renovation/ourProcess4.png";
+import ourProcess5 from "../../../../../public/assets/basement_renovation/ourProcess5.png";
+import ourProcess6 from "../../../../../public/assets/basement_renovation/ourProcess6.png";
 import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
-import { SwiperNavButtons } from "../WorkingProcess/SwiperSliderButton";
+import { SwiperNavButtons } from "../../HomeAdditionsInToronto/WorkingProcess/SwiperSliderButton";
 
 const breakpoints = {
   0: {
@@ -56,72 +52,53 @@ const breakpoints = {
 
 const services = [
   {
-    desc: "Add extra bedrooms, bathrooms, or living areas to accommodate growing families or changing lifestyle needs.",
-    title: "Increased Living Space",
-    img: benefit1,
+    desc: "We begin with a detailed discussion to understand your vision, requirements, and budget for your basement renovation project. This is an opportunity for us to assess the space and provide initial ideas and suggestions.",
+    title: "Initial Consultation",
+    img: ourProcess1,
   },
   {
-    desc: "Improve the functionality of your home by adding specialized spaces like home offices, gyms, or entertainment rooms.",
-    title: "Enhanced Functionality",
-    img: benefit2,
+    desc: "Our experienced team works closely with you to create a customized design that meets your needs and reflects your style. We develop detailed architectural plans and 3D renderings to visualize the proposed layout and features.",
+    title: "Design Phase",
+    img: ourProcess2,
   },
   {
-    desc: "Customize your living environment to reflect your style preferences and functional requirements.",
-    title: "Personalization",
-    img: benefit3,
+    desc: "We guide you through selecting materials, finishes, and fixtures that align with your aesthetic preferences and budget. Every detail is carefully chosen from flooring and cabinetry to lighting and plumbing fixtures.",
+    title: "Selection of Material & Finish",
+    img: ourProcess3,
   },
   {
-    desc: "Well-executed additions can increase the resale value of your home by expanding usable square footage and modernizing",
-    title: "Increased Property Value",
-    img: benefit4,
+    desc: "We handle the necessary permits and approvals required for the renovation, ensuring compliance with local building codes and regulations.",
+    title: "Permits and Approvals",
+    img: ourProcess4,
   },
   {
-    desc: "Save money on moving expenses and the hassle of relocating by improving your current home to meet your needs.",
-    title: "Avoid Moving Costs",
-    img: benefit5,
+    desc: "Once all plans and permits are in place, our skilled craftsmen begin the construction phase. We prioritize quality workmanship and attention to detail, keeping you informed of progress every step of the way.",
+    title: "Construction",
+    img: ourProcess5,
   },
   {
-    desc: "Incorporate energy-efficient materials and systems into your addition to lower utility bills and reduce environmental impact.",
-    title: "Energy Efficiency",
-    img: benefit6,
-  },
-  {
-    desc: "Enjoy the comfort of additional space tailored to your specific needs, enhancing daily living and relaxation.",
-    title: "Improved Comfort",
-    img: benefit7,
-  },
-  {
-    desc: "Improve the overall appearance of your home with cohesive design elements that integrate seamlessly with existing.",
-    title: "Enhanced Aesthetics",
-    img: benefit8,
-  },
-  {
-    desc: "Create a sanctuary within your home, such as a spa-like bathroom or a serene sunroom, for relaxation and rejuvenation.",
-    title: "Personal Retreat",
-    img: benefit9,
-  },
-  {
-    desc: "Provide more space for family gatherings and activities, fostering stronger relationships and a sense of togetherness.",
-    title: "Family Cohesion",
-    img: benefit10,
+    desc: "As we near completion, we focus on the finishing touches to bring your vision to life. Our contractors conduct a thorough inspection to ensure everything meets our high standards and your satisfaction.",
+    title: "Final Touches and Completion",
+    img: ourProcess6,
   }
 ];
 
-const Benefits = () => {
+const OurProcess = () => {
   return (
     <div className="!overflow-hidden">
       <div className="padding__top">
         <div className="container">
           <div className="flex flex-col items-center pb-[15px] lg:pb-[25px]">
             <div className="flex justify-center lg:justify-normal items-center">
-              <HeadingIcon text={headingIconText.benefits__headingIconText}/>
+              <HeadingIcon text={headingIconText.ourProcess__headingIconText}/>
             </div>
             <h3 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] leading-normal font-bold text-black text-center pt-[6px]">
-            Benefits of Home Additions
+            Our Basement Finishing & Renovations Process
             </h3>
+            <p className="text-lg font-normal text-center text-black pt-[10px]">At Fuzion Designs, we've perfected a streamlined process for basement finishing and renovations in Toronto that ensures a seamless and satisfying experience from start to finish.</p>
           </div>
 
-          <div className="mt-[60px]">
+          <div className=" mt-[60px]">
             <Swiper
               modules={[Navigation, Autoplay]}
               breakpoints={breakpoints}
@@ -171,4 +148,4 @@ const Benefits = () => {
   );
 };
 
-export default Benefits;
+export default OurProcess;
