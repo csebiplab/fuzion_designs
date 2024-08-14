@@ -36,6 +36,10 @@ const our_service_menu_items = {
       title: "Basement Renovations in Toronto",
       route: "/basement_renovations_in_toronto",
     },
+    {
+      title: "Deck Builder in Toronto",
+      route: "/deck_builder_in_toronto",
+    },
   ],
 };
 

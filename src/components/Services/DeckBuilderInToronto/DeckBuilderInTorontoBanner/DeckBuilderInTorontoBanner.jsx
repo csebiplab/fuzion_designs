@@ -1,19 +1,19 @@
 "use client";
 import Image from "next/image";
-import "./BasementRenovationsInTorontoBanner.css";
+import "./DeckBuilderInTorontoBanner.css";
 
-const BasementRenovationsInTorontoBanner = () => {
+const DeckBuilderInTorontoBanner = () => {
   return (
     <>
       <div className="hero-section full__section_l_p">
         <div className="md:flex items-center relative">
           <div className="w-full md:w-[50%]">
             <div className="py-14 md:py-0 px-4 md:pl-0">
-              <h1 className="leading-tight text-[40px] md:text-[43px] lg:text-[46px] xl:text-[49px] 2xl:text-[52px] 3xl:text-[55px] 4xl:text-[57px] 5xl:text-[60px] font-bold text-left text-[#0C1C3C]">
-              Basement Renovations in Toronto
+              <h1 className="leading-tight text-[40px] md:text-[44px] lg:text-[48px] xl:text-[52px] 2xl:text-[56px] 3xl:text-[59px] 4xl:text-[62px] 5xl:text-[65px] font-bold text-left text-black ">
+              Deck Builder <br /> in Toronto
               </h1>
               <p className="text-lg font-normal mb-4 leading-tight  xl:leading-snug 5xl:leading-normal mt-2 text-black pb-[15px] xl:pb-[20px] 5xl:pb-[40px]">
-              Fuzion Designs specializes in bespoke basement renovations in Toronto, delivering craftsmanship that enhances form and function.
+              Fuzion Designs is the premier custom deck builder in Toronto, dedicated to transforming outdoor spaces into personalized retreats of exceptional quality and style.
               </p>
               <a href="tel:+1 416-571-0011">
                 <button className="flex gap-2 hero_btn items-center text-lg font-bold text-white py-[8px] px-[19px]">
@@ -38,7 +38,7 @@ const BasementRenovationsInTorontoBanner = () => {
             <Image
               width={928}
               height={782}
-              src="/assets/basement_renovation/hero_bg.png"
+              src="/assets/deck_builder/hero_bg.png"
               alt="hero small image"
               className="hero-main-image mb-0"
             />
@@ -49,4 +49,4 @@ const BasementRenovationsInTorontoBanner = () => {
   );
 };
 
-export default BasementRenovationsInTorontoBanner;
+export default DeckBuilderInTorontoBanner;
