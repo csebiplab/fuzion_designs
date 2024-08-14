@@ -30,5 +30,17 @@ export const headingIconText = {
   howMuchCost__headingIconText : "How Much Cost",
   ourProcess__headingIconText : "Our Process",
   benefits__headingIconText : "Benefits",
-  basementUpgrade__headingIconText : "Basement Upgrade"
+  basementUpgrade__headingIconText : "Basement Upgrade",
+
+  // Deck Builder in Toronto page 
+   company__headingIconText : "#1 Company",
+   ourDeckBuilderOffer__headingIconText : "Our Deck Builder  Offer",
+   customDeckBuilder__headingIconText : "Custom Deck Builder",
+   topRatedDeckBuilder__headingIconText : "Top Rated Deck Builder",
+   bastQualityMaterials__headingIconText : "Best Quality Materials",
+   cost__headingIconText : "cost",
+   benefits__headingIconText : "Benefits",
+   trustUs__headingIconText : "Trust Us",
+   workingProcess__headingIconText : "Working Process",
+
 }
