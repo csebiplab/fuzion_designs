@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import React from 'react';
 
 const ReadOurReview = () => {
@@ -6,8 +6,17 @@ const ReadOurReview = () => {
         <div>
             <div>
                 <h3 className="text-center text-[42px] text-black font-semibold pt-[30px] pb-[40px]">Read Our Reviews</h3>
-                <div>
-                    <Image src="/assets/fuzion_design_home/ready_our_review.png" alt='ready_our_review image' width={540} height={480} className="w-[540px] h-[480px] ml-3 md:mx-auto pb-[30px] md:pb-[50px]"/>
+                <div className="pb-[20px]">
+                    <iframe
+                        src="https://HomeStars.com/widgets/reviews/fuzion-designs/large"
+                        width="430"
+                        height="500px"
+                        frameborder="0"
+                        scrolling="yes"
+                        className="w-[430px] md:w-[490px] h-[500px] mx-auto"
+                        >
+                        Your browser does not support iframes.&nbsp;
+                    </iframe>
                 </div>
             </div>
         </div>

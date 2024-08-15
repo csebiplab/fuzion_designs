@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from 'next/image';
 import HeadingIcon from '@/components/__ui/HeadingIcon';
 import { headingIconText } from '@/utils/heading-text';
 
@@ -7,7 +6,7 @@ const AboutUs = () => {
     return (
         <div>
             <div className='container padding__top'>
-                <div className="grid grid-cols-1 md:grid-cols-5 gap-[36px]">
+                <div className="grid grid-cols-1 md:grid-cols-6 gap-[36px]">
                     <div className="order-2 md:order-1 md:col-span-3">
                         <div>
                             <div className="flex justify-center md:justify-start">
@@ -18,9 +17,18 @@ const AboutUs = () => {
                             <p className="text-black text-lg font-normal text-center md:text-left">At Fuzion Designs, we pride ourselves on our expertise in crafting custom designs and executing exceptional basement renovations in Toronto. With a dedicated team of skilled renovators and designers, we cater to clients seeking personalized solutions that enhance their homes' aesthetic appeal and functionality. Our approach begins with a thorough consultation where we listen to your ideas, preferences, and requirements. Throughout the renovation process, we prioritize quality craftsmanship and attention to detail. Every aspect of our work is meticulously executed from structural modifications to finishing touches to ensure superior results and client satisfaction. We use high-quality materials and innovative techniques to create durable, stylish, and comfortable living spaces that stand the test of time. With years of experience in the industry, Fuzion Designs has built a reputation for excellence in Toronto and beyond.</p>
                         </div>
                     </div>
-                    <div className="order-1 md:order-2 md:col-span-2">
+                    <div className="order-1 md:order-2 md:col-span-3">
                         <div>
-                            <Image src="/assets/fuzion_design_home/about_us.png" alt="About Us image" width={600} height={600} className='w-[500px] h-[460px]'/>
+                        <iframe
+                src="https://HomeStars.com/widgets/reviews/fuzion-designs/large"
+                width="450"
+                height="500px"
+                frameborder="0"
+                scrolling="yes"
+                className="w-[450px] md:w-[490px] h-[500px]"
+              >
+                Your browser does not support iframes.&nbsp;
+              </iframe>
                         </div>
                     </div>
                 </div>
