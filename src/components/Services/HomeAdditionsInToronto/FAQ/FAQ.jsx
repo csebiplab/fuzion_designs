@@ -98,9 +98,9 @@ const FAQ = () => {
                     className=" relative"
                   >
                     <div
-                      className={`text-white  border-b-0 transition-colors px-5`}
+                      className={`text-[#161616]  border-b-0 transition-colors px-5`}
                     >
-                      <span className="text-white text-base font-bold">
+                      <span className="text-[#161616] text-base font-bold">
                         {question}
                       </span>
                     </div>

@@ -12,6 +12,12 @@ import AboutUs from './AboutUs/AboutUs';
 import Cost from './Cost/Cost';
 import TrustUs from './TrustUs/TrustUs';
 import BestQualityMaterials from './BestQualityMaterials/BestQualityMaterials';
+import Company from './Company/Company';
+import TopRatedDeckBuilder from './TopRatedDeckBuilder/TopRatedDeckBuilder';
+import CustomDeckBuilder from './CustomDeckBuilder/CustomDeckBuilder';
+import OurDeckBuilderOffer from './OurDeckBuilderOffer/OurDeckBuilderOffer';
+import WorkingProcess from './WorkingProcess/WorkingProcess';
+import Benefits from './Benefits/Benefits';
 
 const DeckBuilderInToronto = () => {
     return (
@@ -30,7 +36,19 @@ const DeckBuilderInToronto = () => {
             </section>
 
             <section>
+                <Company/>
+            </section>
 
+            <section>
+                <OurDeckBuilderOffer/>
+            </section>
+
+            <section>
+                <CustomDeckBuilder/>
+            </section>
+
+            <section>
+                <TopRatedDeckBuilder/>
             </section>
 
             
@@ -45,6 +63,14 @@ const DeckBuilderInToronto = () => {
 
             <section>
                 <Cost/>
+            </section>
+
+            <section>
+                <WorkingProcess/>
+            </section>
+
+            <section>
+                <Benefits/>
             </section>
 
             <section>

@@ -12,17 +12,16 @@ import "swiper/css/navigation";
 import "swiper/css/scrollbar";
 import "swiper/css/virtual";
 
-import img1 from "../../../../../public/assets/deck_builder/wcu1.png";
-import img2 from "../../../../../public/assets/deck_builder/wcu2.png";
-import img3 from "../../../../../public/assets/deck_builder/wcu3.png";
-import img4 from "../../../../../public/assets/deck_builder/wcu4.png";
-import img5 from "../../../../../public/assets/deck_builder/wcu5.png";
-import img6 from "../../../../../public/assets/deck_builder/wcu6.png";
+import img1 from "../../../../../public/assets/deck_builder/working_process1.png";
+import img2 from "../../../../../public/assets/deck_builder/working_process2.png";
+import img3 from "../../../../../public/assets/deck_builder/working_process3.png";
+import img4 from "../../../../../public/assets/deck_builder/working_process4.png";
+import img5 from "../../../../../public/assets/deck_builder/working_process5.png";
+import img6 from "../../../../../public/assets/deck_builder/working_process6.png";
 
 import HeadingIcon from "@/components/__ui/HeadingIcon";
 import { headingIconText } from "@/utils/heading-text";
 import { SwiperNavButtons } from "../../HomeAdditionsInToronto/WorkingProcess/SwiperSliderButton";
-// import { SwiperNavButtons } from "../WorkingProcess/SwiperSliderButton";
 
 const breakpoints = {
   0: {
@@ -53,50 +52,50 @@ const breakpoints = {
 
 const services = [
   {
-    desc: "Our team brings years of experience and expertise in deck building, ensuring quality craftsmanship and attention to detail in every project.",
-    title: "Expertise and Experience",
+    desc: "We begin by listening carefully to your ideas and requirements, and understanding your vision",
+    title: "Personalized Consultation",
     img: img1,
   },
   {
-    desc: "We specialize in creating custom decks tailored to your preferences and lifestyle, offering personalized design options and materials to suit your needs.",
-    title: "Customization",
+    desc: "Our skilled designers create tailored plans that reflect your preferences & incorporate innovative elements to enhance ",
+    title: "Customized Design",
     img: img2,
   },
   {
-    desc: "We use only the highest quality materials sourced for durability and aesthetic appeal, ensuring your deck stands the test of time and enhances your home's value.",
+    desc: "We source only the highest quality materials, selected for their durability, sustainability, and visual appeal, ensuring ",
     title: "Quality Materials",
     img: img3,
   },
   {
-    desc: "From modern to traditional styles, we incorporate innovative design elements that elevate your outdoor living space and complement your home's architecture.",
-    title: "Innovative Design",
+    desc: "Our experienced craftsmen execute each phase with precision and care, adhering to strict quality standards and timelines.",
+    title: "Expert Construction",
     img: img4,
   },
   {
-    desc: "We prioritize clear communication, transparency, and client satisfaction throughout the entire process, ensuring your vision becomes a reality.",
-    title: "Customer Focus",
+    desc: "We maintain open and clear communication throughout the project, keeping you informed & involved.",
+    title: "Transparent Communication",
     img: img5,
   },
   {
-    desc: "As a trusted Toronto-based company, we understand local building codes, climate considerations, and neighborhood aesthetics, ensuring compliance",
-    title: "Local Expertise",
+    desc: "Upon completion, we conduct a thorough inspection to ensure every detail meets our rigorous standards and exceeds.",
+    title: "Final Inspection & Satisfaction",
     img: img6,
   }
 ];
 
-const WhyChooseUs = () => {
+const WorkingProcess = () => {
   return (
     <div className="!overflow-hidden">
       <div className="padding__top">
         <div className="container">
           <div className="flex flex-col items-center pb-[15px] lg:pb-[25px]">
             <div className="flex justify-center lg:justify-normal items-center">
-              <HeadingIcon text={headingIconText.whyChooseUs__headingIconText}/>
+              <HeadingIcon text={headingIconText.workingProcess__headingIconText}/>
             </div>
             <h3 className="text-[25px] md:text-[27px] lg:text-[28px] xl:text-[30px] 2xl:text-[31px] 3xl:text-[33px] 4xl:text-[35px] 5xl:text-[36px] leading-normal font-bold text-black text-center pt-[6px]">
-            Why Choose Our Toronto Deck Builder
+            Unique Working Process of Our Deck Builder
             </h3>
-            <p className="text-lg font-normal text-center text-black pt-[10px]">Choosing Fuzion Designs as your Toronto deck builder ensures you benefit from our commitment to excellence, innovation, and customer satisfaction. With a proven track record of creating stunning outdoor spaces, here's why you should choose us:</p>
+            <p className="text-lg font-normal text-center text-black pt-[10px]">At Fuzion Designs, our deck-building process is distinguished by our commitment to creativity, craftsmanship, and client satisfaction. Here's how we ensure a unique and successful project:</p>
           </div>
 
           <div className="mt-[60px]">
@@ -149,4 +148,4 @@ const WhyChooseUs = () => {
   );
 };
 
-export default WhyChooseUs;
+export default WorkingProcess;
