@@ -20,15 +20,15 @@ const AboutUs = () => {
                     <div className="md:col-span-3">
                         <div>
                         <iframe
-                src="https://HomeStars.com/widgets/reviews/fuzion-designs/large"
-                width="450"
-                height="500px"
-                frameborder="0"
-                scrolling="yes"
-                className="w-[450px] md:w-[490px] h-[500px]"
-              >
-                Your browser does not support iframes.&nbsp;
-              </iframe>
+                        src="https://HomeStars.com/widgets/reviews/fuzion-designs/large"
+                        width="430"
+                        height="500px"
+                        frameborder="0"
+                        scrolling="yes"
+                        className="w-[430px] md:w-[490px] h-[500px]"
+                        >
+                        Your browser does not support iframes.&nbsp;
+                        </iframe>
                         </div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@ import "./TopRatedDeckBuilder.css"
 const TopRatedDeckBuilder = () => {
     return (
         <div className=''>
-            <div className='full__section_r_p padding__top'>
+            <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>
                     <div>

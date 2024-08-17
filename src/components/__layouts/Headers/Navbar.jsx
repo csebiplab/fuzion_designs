@@ -1,8 +1,6 @@
 "use client";
 
-// import constants from "@/components/lib/constants";
 import {
-  Bars3Icon,
   ChevronDownIcon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
@@ -39,6 +37,14 @@ const our_service_menu_items = {
     {
       title: "Deck Builder in Toronto",
       route: "/deck_builder_in_toronto",
+    },
+    {
+      title: "Kitchen Renovation in Toronto",
+      route: "/kitchen_renovation_in_toronto",
+    },
+    {
+      title: "Bathroom Renovations in Toronto",
+      route: "/bathroom_renovations_in_toronto",
     },
   ],
 };

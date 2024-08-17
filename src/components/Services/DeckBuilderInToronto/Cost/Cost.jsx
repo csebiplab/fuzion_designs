@@ -6,7 +6,7 @@ import { headingIconText } from '@/utils/heading-text';
 const Cost = () => {
     return (
         <div>
-            <div className='full__section_r_p padding__top'>
+            <div className='full__section_r_p pl-3 md:pl-0 padding__top'>
                 <div className="grid grid-cols-1 md:grid-cols-6 gap-[36px]">
                     <div className="order-2 md:col-span-3">
                         <div>

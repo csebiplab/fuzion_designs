@@ -50,9 +50,7 @@ const DeckBuilderInToronto = () => {
             <section>
                 <TopRatedDeckBuilder/>
             </section>
-
             
-
             <section>
             <Gallery />
             </section>

@@ -43,4 +43,19 @@ export const headingIconText = {
    trustUs__headingIconText : "Trust Us",
    workingProcess__headingIconText : "Working Process",
 
+
+  //  Kitchen Renovation in Toronto page 
+  bestKitchenRenovation__headingIconText : "Best Kitchen Renovation",
+  affordableCompany__headingIconText : "Affordable Company",
+  expertKitchenRenovation__headingIconText : "Expert Kitchen Renovation",
+  designGeneralContractor__headingIconText : "Design & General Contractor",
+  trustUsCustomDesign__headingIconText : "Trust Us Custom Design",
+  stepOfServices__headingIconText : "Step of Services",
+  renovationConstruction__headingIconText : "Renovation & Construction",
+  howMuchCost__headingIconText : "How Much Cost",
+  benefits__headingIconText : "Benefits",
+  whyChooseUs__headingIconText : "Why Choose Us",
+  kitchenRenovationWithUs__headingIconText : "Kitchen Renovation With Us",
+  faq__headingIconText : "FAQ",
+
 }
