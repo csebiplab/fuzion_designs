@@ -13,6 +13,12 @@ import StepOfServices from "./StepOfServices/StepOfServices";
 import Review from "../HomeAdditionsInToronto/Review/Review";
 import HowMuchCost from "./HowMuchCost/HowMuchCost";
 import Benefits from "./Benefits/Benefits";
+import ContactUs from "../HomeAdditionsInToronto/ContactUs/ContactUs";
+import Location from "../HomeAdditionsInToronto/Location/Location";
+import Areas from "../HomeAdditionsInToronto/Areas/Areas";
+import FAQ from "./FAQ/FAQ";
+import KitchenRenovationWithUs from "./KitchenRenovationWithUs/KitchenRenovationWithUs";
+import WhyChooseUs from "./WhyChooseUs/WhyChooseUs";
 
 const KitchenRenovationInToronto = () => {
   return (
@@ -71,6 +77,30 @@ const KitchenRenovationInToronto = () => {
 
       <section>
         <Benefits />
+      </section>
+
+      <section>
+        <WhyChooseUs />
+      </section>
+
+      <section>
+        <KitchenRenovationWithUs />
+      </section>
+
+      <section>
+        <FAQ />
+      </section>
+
+      <section>
+        <Areas />
+      </section>
+
+      <section>
+        <ContactUs />
+      </section>
+
+      <section>
+        <Location />
       </section>
       
     </div>

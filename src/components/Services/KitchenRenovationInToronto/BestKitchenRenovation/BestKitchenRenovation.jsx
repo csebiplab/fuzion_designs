@@ -20,7 +20,7 @@ const BestKitchenRenovation = () => {
                     </div>
                     <div className="md:col-span-3">
                         <div>
-                        <Image src="/assets/kitchen_renovation/Best Kitchen Renovation.png" alt="best kitchen renovation image" width={620} height={545}/>
+                        <Image src="/assets/kitchen_renovation/Best Kitchen Renovation.png" alt="best kitchen renovation image" width={620} height={545} className='w-[620px] h-[545px]'/>
                         </div>
                     </div>
                 </div>
