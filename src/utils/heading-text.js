@@ -58,4 +58,19 @@ export const headingIconText = {
   kitchenRenovationWithUs__headingIconText : "Kitchen Renovation With Us",
   faq__headingIconText : "FAQ",
 
+  // Bathroom Renovations in Toronto page 
+
+  aboutUs__headingIconText : "About Us",
+  expertRenovators__headingIconText : "Expert Renovators",
+  bestBathroomRenovation__headingIconText : "Best Bathroom Renovation",
+  experiencedServices__headingIconText : "Experienced Services",
+  trustUs__headingIconText : "Trust Us",
+  remodelDesign__headingIconText : "Remodel & Design",
+  gallery__headingIconText : "Gallery",
+  workingProcess__headingIconText : "Working Process",
+  benefits__headingIconText : "Benefits",
+  howMuchCost__headingIconText : "How Much Cost",
+  whyChooseUs__headingIconText : "Why Choose Us",
+  startBathroomRenovations__headingIconText : "Start Bathroom Renovations",
+  startBathroomRenovations__headingIconText : "Start Bathroom Renovations",
 }
