@@ -20,7 +20,7 @@ const BestBathroomRenovation = () => {
                     </div>
                     <div className="order-1 md:col-span-3">
                         <div>
-                            <Image src="/assets/bathroom_renovation/Best Bathroom Renovation.png" alt="Best Bathroom Renovation image" width={768} height={542} className="w-[768px] h-[542px]"/>
+                            <Image src="/assets/bathroom_renovation/Best Bathroom Renovation.png" alt="Best Bathroom Renovation image" width={768} height={542} className="w-[768px] h-[233px] md:h-[542px]"/>
                         </div>
                     </div>
                 </div>

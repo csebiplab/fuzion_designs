@@ -70,7 +70,7 @@ function OurServiceManu() {
         offset={{ mainAxis: 20 }}
         placement="bottom"
         allowHover={true}
-        className="bg-gray-100"
+        className="bg-gray-100 "
       >
         <MenuHandler>
           <Typography
@@ -81,7 +81,7 @@ function OurServiceManu() {
             className="font-medium text-lg"
           >
             <ListItem
-              className="flex items-center gap-2 rounded-full py-1  pr-4 font-normal  text-sm lg:text-base 5xl:text-[17px]   text-black"
+              className="flex items-center gap-2 rounded-full py-1  pr-4 font-normal  text-sm lg:text-base 5xl:text-[17px] text-black "
               selected={isMenuOpen || isMobileMenuOpen}
               onClick={() => setIsMobileMenuOpen((cur) => !cur)}
             >
@@ -101,7 +101,7 @@ function OurServiceManu() {
             </ListItem>
           </Typography>
         </MenuHandler>
-        <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100">
+        <MenuList className="hidden max-w-[100vw] w-screen lg:block border-0 outline-0 bg-gray-100 -mt-[9px]">
           <div className="container grid grid-cols-3 gap-y-2">
             <div>
               <h3 className="mb-1 text-primary font-semibold">Interior</h3>

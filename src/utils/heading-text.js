@@ -72,5 +72,4 @@ export const headingIconText = {
   howMuchCost__headingIconText : "How Much Cost",
   whyChooseUs__headingIconText : "Why Choose Us",
   startBathroomRenovations__headingIconText : "Start Bathroom Renovations",
-  startBathroomRenovations__headingIconText : "Start Bathroom Renovations",
 }

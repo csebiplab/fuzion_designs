@@ -11,7 +11,7 @@ const ExperiencedServices = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='order-1 md:order-2 md:col-span-3'>
                     <div>
-                        <Image src="/assets/bathroom_renovation/Experienced Services.png" alt="Experienced Services image " width={770} height={670} className='w-[770px] h-[670px]'/>
+                        <Image src="/assets/bathroom_renovation/Experienced Services.png" alt="Experienced Services image " width={770} height={670} className='w-[770px] h-[450px] md:h-[670px]'/>
                     </div>
                 </div>
                 <div className='order-2 md:order-1 md:col-span-3 flex flex-col items-center md:items-start justify-center'>

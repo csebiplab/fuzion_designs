@@ -65,7 +65,7 @@ const RemodelDesign = () => {
                         alt="Remodel Design image"
                         height={540}
                         width={585}
-                        className="w-auto h-[540px] "
+                        className="w-full h-[233px] md:h-[540px] "
                       />
                     </div>
                   </SwiperSlide>
