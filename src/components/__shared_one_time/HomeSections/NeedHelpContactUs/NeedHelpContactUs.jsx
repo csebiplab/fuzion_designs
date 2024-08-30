@@ -4,7 +4,7 @@ import React from "react";
 const NeedHelpContactUs = () => {
   return (
     <div>
-      <div>
+      <div className="">
         {/* first div  */}
         <div className="grid grid-cols-1 md:grid-cols-2 ">
           <div className="md:col-span-1  bg-black text-white py-[65px]">

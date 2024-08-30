@@ -12,7 +12,7 @@ import GetInstantQuote from './GetInstantQuote/GetInstantQuote';
 
 const HomeSection = () => {
     return (
-        <div>
+        <div className='custom-container'>
 
             <section>
                 <HomeBanner/>
