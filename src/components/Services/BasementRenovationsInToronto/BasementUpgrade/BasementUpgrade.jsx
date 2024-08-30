@@ -20,7 +20,7 @@ const BasementUpgrade = () => {
                     </div>
                     <div className="order-1 md:order-2 md:col-span-3">
                         <div>
-                            <Image src="/assets/basement_renovation/Basement Upgrade.png" alt="Basement Upgrade image" width={770} height={500} className='w-[770px] h-[500px]'/>
+                            <Image src="/assets/basement_renovation/Basement Upgrade.png" alt="Basement Upgrade image" width={770} height={500} className='w-[770px] h-[235px] md:h-[500px]'/>
                         </div>
                     </div>
                 </div>

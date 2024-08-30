@@ -20,7 +20,7 @@ const Cost = () => {
                     </div>
                     <div className="order-1 md:col-span-3">
                         <div>
-                            <Image src="/assets/deck_builder/cost.png" alt="Cost image" width={670} height={465} className="w-[670px] h-[465px]"/>
+                            <Image src="/assets/deck_builder/cost.png" alt="Cost image" width={670} height={465} className="w-[670px] h-[260px] md:h-[465px]"/>
                         </div>
                     </div>
                 </div>

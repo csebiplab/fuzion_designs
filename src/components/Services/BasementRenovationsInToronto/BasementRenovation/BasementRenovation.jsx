@@ -11,7 +11,7 @@ const BasementRenovation = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>
                     <div>
-                        <Image src="/assets/basement_renovation/Basement Renovation.png" alt="Basement Renovation image " width={780} height={600} className='w-[780px] h-[600px]'/>
+                        <Image src="/assets/basement_renovation/Basement Renovation.png" alt="Basement Renovation image " width={780} height={600} className='w-[780px] h-[235px] md:h-[600px]'/>
                     </div>
                 </div>
                 <div className='md:col-span-3 flex flex-col items-center md:items-start justify-center'>

@@ -11,7 +11,7 @@ const HomeAdditionDesign = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>
                     <div>
-                        <Image src="/assets/fuzion_design_home/Home Addition Design.png" alt="Home Addition Design image " width={770} height={520} className='w-[770px] h-[520px]'/>
+                        <Image src="/assets/fuzion_design_home/Home Addition Design.png" alt="Home Addition Design image " width={770} height={520} className='w-[770px] h-[292px] md:h-[520px]'/>
                     </div>
                 </div>
                 <div className='md:col-span-3 flex flex-col items-center md:items-start justify-center'>

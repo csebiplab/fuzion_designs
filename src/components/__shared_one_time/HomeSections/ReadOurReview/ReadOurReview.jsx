@@ -9,11 +9,11 @@ const ReadOurReview = () => {
                 <div className="pb-[20px]">
                     <iframe
                         src="https://HomeStars.com/widgets/reviews/fuzion-designs/large"
-                        width="400"
+                        width="370"
                         height="500px"
                         frameborder="0"
                         scrolling="yes"
-                        className="w-[400px] md:w-[490px] h-[500px] mx-auto"
+                        className="w-[370px] md:w-[490px] h-[500px] mx-auto"
                         >
                         Your browser does not support iframes.&nbsp;
                     </iframe>

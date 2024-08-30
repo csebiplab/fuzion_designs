@@ -11,7 +11,7 @@ const TopRatedDeckBuilder = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>
                     <div>
-                        <Image src="/assets/deck_builder/Top Rated Deck Builder.png" alt="Top Rated Deck Builder image " width={770} height={620} className='w-[770px] h-[620px]'/>
+                        <Image src="/assets/deck_builder/Top Rated Deck Builder.png" alt="Top Rated Deck Builder image " width={770} height={620} className='w-[770px] h-[235px] md:h-[620px]'/>
                     </div>
                 </div>
                 <div className='md:col-span-3 flex flex-col items-center md:items-start justify-center'>

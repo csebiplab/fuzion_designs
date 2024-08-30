@@ -8,7 +8,7 @@ const RenovationConstruction = () => {
         <div>
             <div className='container padding__top'>
                 <div className="grid grid-cols-1 md:grid-cols-6 gap-[36px]">
-                    <div className="md:col-span-3">
+                    <div className="order-2 md:order-1 md:col-span-3">
                         <div>
                             <div className="flex justify-center md:justify-start">
                             <HeadingIcon text={headingIconText.renovationConstruction__headingIconText}/>
@@ -18,9 +18,9 @@ const RenovationConstruction = () => {
                             <p className="text-black text-lg font-normal text-center md:text-left">Fuzion Designs is a premier renovation and construction company in Toronto, dedicated to transforming spaces with creativity and precision. Specializing in both residential and commercial projects, we offer comprehensive services that span from initial concept to final construction. Our team of experienced professionals excels in delivering tailored solutions that enhance functionality and aesthetics. Whether you're renovating a single room, remodeling an entire home, or undertaking a commercial project, Fuzion Designs prioritizes quality craftsmanship and client satisfaction. As your trusted renovation and construction partner, we handle all aspects of the project with meticulous attention to detail and superior project management. From architectural design and planning to interior finishes and exterior renovations, we ensure seamless execution and timely completion.</p>
                         </div>
                     </div>
-                    <div className="md:col-span-3">
+                    <div className="order-1 md:order-2 md:col-span-3">
                         <div>
-                        <Image src="/assets/kitchen_renovation/RenovationConstruction.png" alt="RenovationConstruction.png image" width={620} height={545}/>
+                        <Image src="/assets/kitchen_renovation/RenovationConstruction.png" alt="RenovationConstruction.png image" width={620} height={545} className="h-[310px] md:h-[545px]"/>
                         </div>
                     </div>
                 </div>

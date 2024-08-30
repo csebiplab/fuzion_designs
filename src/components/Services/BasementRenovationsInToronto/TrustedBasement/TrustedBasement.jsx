@@ -80,7 +80,7 @@ const TrustedBasement = () => {
                         alt="custom Design image"
                         height={440}
                         width={585}
-                        className="w-auto h-[440px] "
+                        className="w-full h-[235px] md:h-[440px] "
                       />
                     </div>
                   </SwiperSlide>

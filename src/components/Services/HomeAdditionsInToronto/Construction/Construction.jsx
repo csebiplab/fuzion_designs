@@ -11,7 +11,7 @@ const Construction = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>
                     <div>
-                        <Image src="/assets/fuzion_design_home/Construction.png" alt="Construction image " width={770} height={620} className='w-[770px] h-[620px]'/>
+                        <Image src="/assets/fuzion_design_home/Construction.png" alt="Construction image " width={770} height={620} className='w-[770px] h-[450px] md:h-[620px]'/>
                     </div>
                 </div>
                 <div className='md:col-span-3 flex flex-col items-center md:items-start justify-center'>

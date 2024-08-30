@@ -36,7 +36,7 @@ const TrustUsCommonDesign = () => {
     <div className="">
       <div className="container padding__top">
         <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
-          <div className="order-2 md:col-span-3">
+          <div className="order-1 md:order-2 md:col-span-3">
             <div>
               {/* ==================== swiper slider ================ */}
               <Swiper
@@ -65,7 +65,7 @@ const TrustUsCommonDesign = () => {
                         alt="custom Design image"
                         height={440}
                         width={585}
-                        className="w-auto h-[440px] "
+                        className="w-full h-[235px] md:h-[440px] "
                       />
                     </div>
                   </SwiperSlide>
@@ -73,7 +73,7 @@ const TrustUsCommonDesign = () => {
               </Swiper>
             </div>
           </div>
-          <div className="order-1 md:col-span-3 flex flex-col items-center md:items-start justify-center">
+          <div className="order-2 md:order-1 md:col-span-3 flex flex-col items-center md:items-start justify-center">
             <div className="pb-[5px] ">
               <HeadingIcon
                 text={headingIconText.trustUsCustomDesign__headingIconText}

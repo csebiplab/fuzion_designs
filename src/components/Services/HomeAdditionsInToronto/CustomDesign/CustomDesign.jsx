@@ -91,7 +91,7 @@ const CustomDesign = () => {
                         alt="custom Design image"
                         height={440}
                         width={585}
-                        className="w-auto h-[440px] "
+                        className="w-auto h-[274px] md:h-[440px] "
                       />
                     </div>
                   </SwiperSlide>

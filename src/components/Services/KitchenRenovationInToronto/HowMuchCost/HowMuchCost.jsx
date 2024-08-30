@@ -53,7 +53,7 @@ const howMuchCostData = [
 const HowMuchCost = () => {
   return (
     <div>
-      <div className="full__section_r_p padding__top">
+      <div className="full__section_r_p pl-3 md:pl-0 padding__top">
         <div className="grid grid-cols-1 md:grid-cols-6 gap-[36px]">
           <div className="order-2 md:col-span-3">
             <div className="!overflow-hidden">
@@ -123,7 +123,7 @@ const HowMuchCost = () => {
                 alt="expert kitchen renovation image"
                 width={770}
                 height={545}
-                className="w-[770px] h-[545px]"
+                className="w-[770px] h-[376px] md:h-[545px]"
               />
             </div>
           </div>

@@ -8,7 +8,7 @@ const BestQualityMaterials = () => {
         <div>
             <div className='container padding__top'>
                 <div className="grid grid-cols-1 md:grid-cols-6 gap-[36px]">
-                    <div className="md:col-span-3">
+                    <div className="order-2 md:order-1 md:col-span-3">
                         <div>
                             <div className="flex justify-center md:justify-start">
                             <HeadingIcon text={headingIconText.bastQualityMaterials__headingIconText}/>
@@ -18,9 +18,9 @@ const BestQualityMaterials = () => {
                             <p className="text-black text-lg font-normal text-center md:text-left">At Fuzion Designs, we pride ourselves on offering the best quality deck-building materials available in Toronto. We understand that the foundation of a durable and beautiful deck lies in the materials used. That's why we source only the finest lumber, composite materials, and accessories to ensure longevity, aesthetic appeal, and minimal maintenance for our clients. Whether you prefer the natural warmth of wood or the modern durability of composite decking, we provide a wide range of options to suit your style and budget. Our expert team guides you through the selection process, offering insights into the benefits of each material and recommending the best fit for your specific project. By prioritizing quality materials and craftsmanship, we guarantee that every deck we build not only meets but exceeds industry standards for durability and aesthetics.</p>
                         </div>
                     </div>
-                    <div className="md:col-span-3">
+                    <div className="order-1 md:order-2 md:col-span-3">
                         <div>
-                            <Image src="/assets/deck_builder/Best Quality Materials.png" alt="Best Quality Materials image" width={620} height={545} className="w-[620px] h-[545px]"/>
+                            <Image src="/assets/deck_builder/Best Quality Materials.png" alt="Best Quality Materials image" width={620} height={545} className="w-[620px] h-[310px] md:h-[545px]"/>
                         </div>
                     </div>
                 </div>

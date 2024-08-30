@@ -11,7 +11,7 @@ const Company = () => {
             <div className="grid grid-cols-1 md:grid-cols-6 gap-[50px]">
                 <div className='md:col-span-3'>
                     <div>
-                        <Image src="/assets/deck_builder/Company.png" alt="Company image " width={770} height={650} className='w-[770px] h-[650px]'/>
+                        <Image src="/assets/deck_builder/Company.png" alt="Company image " width={770} height={650} className='w-[770px] h-[450px] md:h-[650px]'/>
                     </div>
                 </div>
                 <div className='md:col-span-3 flex flex-col items-center md:items-start justify-center'>

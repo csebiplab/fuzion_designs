@@ -74,7 +74,7 @@ const WhyChooseUs = () => {
   return (
     <div className="">
       <div className="container padding__top">
-        <div className="shadow-sm md:mx-0 xs:mx-[35px] ">
+        <div className="shadow-sm">
           <div className=" grid md:grid-cols-3 2xl:gap-[40px] md:gap-[30px] ">
             <div className="mx-auto flex flex-col items-center justify-center">
               <div className="w-full flex md:justify-start justify-center md:items-start items-center">

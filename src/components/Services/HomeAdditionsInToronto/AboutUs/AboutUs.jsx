@@ -37,11 +37,11 @@ const AboutUs = () => {
             <div>
               <iframe
                 src="https://HomeStars.com/widgets/reviews/fuzion-designs/large"
-                width="450"
+                width="400"
                 height="450px"
                 frameborder="0"
                 scrolling="yes"
-                className="w-[450px] md:w-[490px] h-[450px]"
+                className="w-[370px] md:w-[490px] h-[450px]"
               >
                 Your browser does not support iframes.&nbsp;
               </iframe>
