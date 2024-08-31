@@ -60,7 +60,7 @@ const FAQ = () => {
   return (
     <div className="">
       <div className="full__section_r_p pl-3 md:pl-0 padding__top">
-        <div className=" grid md:grid-cols-6 grid-cols-1 md:gap-[30px]">
+        <div className=" grid md:grid-cols-6 grid-cols-1 md:gap-[20px]">
           <div className="md:col-span-3 flex items-center ">
             <div className="">
               <Image

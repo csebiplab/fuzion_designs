@@ -109,9 +109,9 @@ const services = [
 
 const OurDeckBuilderOffer = () => {
   return (
-    <div className="!overflow-hidden">
-      <div className="padding__top">
-        <div className="container">
+    <div className="">
+      <div className="container padding__top">
+        <div className="!overflow-hidden">
           <div className="flex flex-col items-center pb-[15px] lg:pb-[25px]">
             <div className="flex justify-center lg:justify-normal items-center">
               <HeadingIcon text={headingIconText.ourDeckBuilderOffer__headingIconText}/>

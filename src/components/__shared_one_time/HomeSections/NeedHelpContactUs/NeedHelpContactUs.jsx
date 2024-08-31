@@ -53,6 +53,7 @@ const NeedHelpContactUs = () => {
               alt="Professional"
               width={1206}
               height={905}
+              className="w-full h-[905px]"
             />
             <div className="grid grid-cols-1 md:grid-cols-2">
                 <div className="md:col-span-1 bg-primary">
